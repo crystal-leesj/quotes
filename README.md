@@ -15,3 +15,18 @@ Takes the recentquotes.json and swish it down to one line. Pass the line to GSON
 Within the directory of quotes.
 
 In terminal, type ` ./gradlew run --args "src/main/resources/recentquotes.json"` or path to the json file
+
+# Generate One Quote from API
+
+## Collaborators: Crystal, Phong
+
+## Problem Domain
+
+If connection, runs the API to grab one random quote and display. If there is no connection, then grab one random quote from recentqoute.json and then display it
+
+
+## To Run
+
+Within the directory of quotes.
+
+In terminal, type ` ./gradlew run ` or path to the json file
